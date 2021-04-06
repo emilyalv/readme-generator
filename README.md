@@ -9,7 +9,7 @@
     <h2 id="description">Description, Installation, Usage, Contributing, and Tests</h2>
     <h4>Description</h4>
     <p>This application generates a readme for your application using Inquirer</p>
-      <img src=".assets/readme-questions.png">
+      <img src="/assets/readme-questions.png">
       View process here: https://drive.google.com/file/d/1e4Y_f3iLKvRBOgTd597khWLskWkSK5Vm/view
     <h4>Installation Instructions</h4>
     <p>install using npm</p>
