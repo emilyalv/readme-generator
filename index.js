@@ -56,7 +56,7 @@ const promptUser = () => {
 ]);
 };
 
-const generateHTML = (answers) =>
+const generateReadMe = (answers) =>
   `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,8 +101,8 @@ const generateHTML = (answers) =>
 // Bonus using writeFileAsync as a promise
 const init = () => {
   promptUser()
-    .then((answers) => writeFileAsync('index.html', generateHTML(answers)))
-    .then(() => console.log('Successfully wrote to index.html'))
+    .then((answers) => writeFileAsync('README.md', generateReadMe(answers)))
+    .then(() => console.log('Successfully wrote to ReadME'))
     .catch((err) => console.error(err));
 };
 
