@@ -58,7 +58,7 @@ const promptUser = () => {
 
 const generateReadMe = (answers) =>
   ` <h1>${answers.title}</h1>
-    <p>Contents</p>
+    <h4>Contents</h4>
     <ul>
       <li><a href="#description">Description, Installation, Usage, Contributing, and Tests</a></li>
       <li><a href="#license">License</a></li>
