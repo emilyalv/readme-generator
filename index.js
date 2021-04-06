@@ -57,46 +57,33 @@ const promptUser = () => {
 };
 
 const generateReadMe = (answers) =>
-  `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>${answers.title}</title>
-</head>
-<body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1>${answers.title}</h1>
-    <p>Contents</p>
-    <ul>
-      <li><a href="#description">Description, Installation, Usage, Contributing, and Tests</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#questions">Questions</a></li>
-    </ul>
-   <hr/>
-    <h2 id="description">Description, Installation, Usage, Contributing, and Tests</h2>
-    <h4>Description</h4>
-    <p>${answers.description}</p>
-    <h4>Installation Instructions</h4>
-    <p>${answers.installation}</p>
-    <h4>Usage Information</h4>
-    <p>${answers.usage}</p>
-    <h4>Contribution Guidelines</h4>
-    <p>${answers.contribution}</p>
-    <h4>Test Instructions</h4>
-    <p>${answers.testing}</p>
-    <h2 id="license">License</h2>
-    <p>${answers.license}</p>
-    <h2 id="questions">Questions</h2>
-    <p>My GitHub username is: ${answers.github}</p>
-    <p>My email address is: ${answers.email}</p>
+  `#${answers.title}
+    <h4>Contents</h4>
+    [Description] (#description)
+    [Installation Instructions] (#installation-instructions)
+    [Usage Information] (#usage-information)
+    [Contribution Guidelines] (#contribution-Guidelines)
+    [Test Instructions] (#test-instructions)
+    [License] (#license)
+    [Questions] (#questions)
 
-  </div>
-</div>
-</body>
-</html>`;
+    <h4>Description, Installation, Usage, Contributing, and Tests</h4>
+    ##Description
+    ${answers.description}
+    ##Installation Instructions
+    ${answers.installation}
+    ##Usage Information
+    ${answers.usage}
+    ##Contribution Guidelines
+    ${answers.contribution}
+    ##Test Instructions
+    ${answers.testing}
+    ##License
+    ${answers.license}
+    ##Questions
+    My GitHub username is: ${answers.github}
+    My email address is: ${answers.email}
+`;
 
 // Bonus using writeFileAsync as a promise
 const init = () => {
