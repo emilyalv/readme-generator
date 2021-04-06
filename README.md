@@ -8,7 +8,8 @@
    <hr/>
     <h2 id="description">Description, Installation, Usage, Contributing, and Tests</h2>
     <h4>Description</h4>
-    <p>This application generates a readme for your application using inquirer</p>
+    <p>This application generates a readme for your application using Inquirer</p>
+    <iframe src="https://drive.google.com/file/d/1e4Y_f3iLKvRBOgTd597khWLskWkSK5Vm/preview" width="640" height="480"></iframe>
     <h4>Installation Instructions</h4>
     <p>install using npm</p>
     <h4>Usage Information</h4>
@@ -19,6 +20,6 @@
     <p>n/a</p>
     <h2 id="license">License</h2>
     <p>MIT License</p>
-    <h2 id="questions">Questions</h2>
+    <h2 id="questions">Questions?</h2>
     <p>My GitHub username is: @emilyalv</p>
-    <p>My email address is: emily@gmail.com</p>
+ 
